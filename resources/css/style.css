@@ -1,0 +1,68 @@
+/*
+  Custom styles for Trackster App
+*/
+
+/* universal styles */
+html {
+  font-size: 16px;
+  font-family: "Work Sans";
+}
+
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(35, 2, 63);
+  padding: 2.75rem 0;
+}
+
+#logo {
+  font-family: Righteous, cursive;
+  font-size: 2.5rem;
+  color: rgb(255, 0, 171);
+}
+
+#search-input {
+  border-radius: 19px;
+  margin-right: .625rem;
+  padding: .5rem;
+}
+
+#search-input::placeholder {
+  color: rgb(191, 191, 191);
+}
+
+#search-button {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 102, 204);
+  border-radius: 19px;
+  padding: .5rem;
+}
+
+/* headings */
+
+.headings {
+  color: rgb(255, 255, 255);
+  background-color: rgb(104, 0, 255);
+}
+
+.heading {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* song list */
+#song {
+  display: flex;
+  align-items: center;
+  color: rgb(74, 74, 74);
+  border-bottom: 1px solid rgb(204, 204, 204);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.play-button a {
+  color: rgb(255, 102, 204);
+}
